@@ -1,0 +1,29 @@
+[
+	{
+		"title": "Capitolo 1 - Il parco dei biscotti",
+		"music": "ch2",
+		"intro": [
+			["bubu", "Dudu, guarda! Il parco è pieno di cose strane oggi.", "hey"],
+			["dudu", "E qualcuno ha chiuso il cancello del chiosco dei boba...", "sus"],
+			["bubu", "Risolviamo gli enigmi del parco e lo apriamo!", "cute"]
+		],
+		"zone": {
+			"size": [22, 9],
+			"spawn": [-8, 0],
+			"hotspots": [
+				{"id": "bench", "kind": "puzzle", "puzzle": "p001", "at": [-4, -1.5], "prop": "bench",
+					"line": ["dudu", "Questa panchina ha un biglietto con un indovinello sopra!", "sus"]},
+				{"id": "fountain", "kind": "puzzle", "puzzle": "p002", "at": [1, -2.5], "prop": "fountain",
+					"line": ["bubu", "C'è un enigma scritto sul bordo della fontana.", "think"]},
+				{"id": "taxi", "kind": "puzzle", "puzzle": "p003", "at": [5, 1.5], "prop": "taxi",
+					"line": ["dudu", "Il tassista dice che ci porta solo se risolviamo il suo indovinello.", "cool"]},
+				{"id": "cookie_tree", "kind": "cookie", "amount": 2, "at": [-7, -3], "prop": "tree"},
+				{"id": "cookie_bush", "kind": "cookie", "amount": 1, "at": [3, -3.2], "prop": "bush"},
+				{"id": "cookie_lamp", "kind": "cookie", "amount": 1, "at": [-1, 2.5], "prop": "lamp"},
+				{"id": "gate", "kind": "gate", "needs": 3, "at": [9, 0], "prop": "gate",
+					"locked": ["bubu", "Il cancello non si apre. Servono %d enigmi risolti!", "sulk"],
+					"open": ["dudu", "Ce l'abbiamo fatta! Boba per tutti!", "laugh"]}
+			]
+		}
+	}
+]

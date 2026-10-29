@@ -1,0 +1,15 @@
+art/fonts
+art/music
+art/stickers
+art/ui
+art/voices
+art/app_icon.png
+art/app_icon.ico
+default_bus_layout.tres
+scenes/core/Sfx.gd
+scenes/core/Voices.gd
+scenes/core/PadAssigner.gd
+scenes/core/Bindings.gd
+scenes/ui/Stickers.gd
+scenes/ui/StickerView.gd
+scenes/ui/UiTheme.gd

@@ -1,0 +1,52 @@
+{
+	"p001": {
+		"title": "Biscotti in due",
+		"kind": "number",
+		"value": 20,
+		"text": "Bubu e Dudu hanno 12 biscotti in tutto.\nDudu ne ha il doppio di Bubu.\n\nQuanti biscotti ha Bubu?",
+		"answer": 4,
+		"min": 0,
+		"max": 12,
+		"hints": [
+			"Prova a pensare ai biscotti a gruppetti: per ogni biscotto di Bubu, Dudu ne ha due.",
+			"Ogni gruppetto ha 1 biscotto di Bubu e 2 di Dudu, quindi 3 biscotti.",
+			"Quanti gruppetti da 3 ci stanno in 12 biscotti? Ogni gruppetto vale un biscotto di Bubu.",
+			"12 diviso 3 fa 4: Bubu ha 4 biscotti, Dudu 8."
+		],
+		"right": "Esatto! Bubu ne ha 4, e li ha già mangiati.",
+		"wrong": "Mmh, i conti non tornano. Riprova!"
+	},
+	"p002": {
+		"title": "Gatti in fila",
+		"kind": "choice",
+		"value": 30,
+		"text": "Quattro gatti aspettano in fila davanti al chiosco.\n- Il grigio è il primo.\n- Il nero è subito dietro al grigio.\n- Il rosso è l'ultimo.\n- Il bianco non è il primo.\n\nChi è il secondo della fila?",
+		"options": ["Il bianco", "Il nero", "Il rosso", "Il grigio"],
+		"answer": 1,
+		"hints": [
+			"Comincia da chi ha un posto fisso: il primo e l'ultimo.",
+			"Grigio primo, rosso quarto. Restano il secondo e il terzo posto.",
+			"Chi sta subito dietro al primo della fila?",
+			"Il nero è subito dietro al grigio, quindi è il secondo."
+		],
+		"right": "Giusto! Il nero si è infilato subito dietro al grigio.",
+		"wrong": "No, quel gatto è da un'altra parte della fila."
+	},
+	"p003": {
+		"title": "Il taxi del parco",
+		"kind": "number",
+		"value": 30,
+		"text": "Il taxi parte con Bubu e Dudu a bordo.\nFa 3 fermate: a ogni fermata salgono 2 passeggeri e ne scende 1.\n\nQuanti passeggeri ci sono a bordo alla fine?\n(L'autista non conta.)",
+		"answer": 5,
+		"min": 0,
+		"max": 20,
+		"hints": [
+			"Quanti sono a bordo all'inizio? Non dimenticare nessuno dei due.",
+			"A ogni fermata, salgono in 2 e scende 1: il totale cambia sempre dello stesso numero.",
+			"A ogni fermata a bordo c'è un passeggero in più. Le fermate sono 3.",
+			"All'inizio 2, poi 3, 4, 5. Alla fine sono 5."
+		],
+		"right": "Perfetto! Cinque passeggeri, e Bubu vuole il finestrino.",
+		"wrong": "Il tassametro dice di no. Ricontrolla le fermate!"
+	}
+}
